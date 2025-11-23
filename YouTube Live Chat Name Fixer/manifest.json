@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "YouTube Live 名前表示",
+  "name": "YouTube Live Chat Name Fixer",
   "version": "1.5",
-  "description": "YouTube Liveのコメント欄のハンドル名を名前表示に戻すやつ",
+  "description": "A browser extension that converts YouTube Live Chat handles into channel display names.",
   "action": {
     "default_icon": {
       "128": "icon/icon.png"
@@ -22,3 +22,4 @@
     "128": "icon/icon.png"
   }
 }
+
