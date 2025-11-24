@@ -25,7 +25,7 @@ YouTubeライブチャットに表示される **@ハンドル名** を、視認
 - プライバシー保護：外部送信なし
 
 ### 動作方法
-`<yt-live-chat-text-message-renderer>` を監視し、その内部の公開情報から表示名を抽出して置換します。YouTubeの内部機能には干渉しません。
+`<yt-live-chat-item-list-renderer>` を監視し、その内部の公開情報から表示名を抽出して置換します。YouTubeの内部機能には干渉しません。
 
 ### インストール（開発者モード）
 1. リポジトリをダウンロード  
@@ -64,7 +64,7 @@ Therefore, it is **a safe and permitted form of client-side UI customization**.
 - Privacy-safe: no external communication
 
 ### How It Works
-The extension observes `<yt-live-chat-text-message-renderer>` elements and extracts display names from their public internal data.  
+The extension observes `<yt-live-chat-item-list-renderer>` elements and extracts display names from their public internal data.  
 Only the local DOM is altered, ensuring full compliance with platform policies.
 
 ### Installation (Developer Mode)
